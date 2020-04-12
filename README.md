@@ -1,0 +1,1 @@
+# nuxt-router-test2
