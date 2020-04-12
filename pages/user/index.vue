@@ -13,7 +13,7 @@
           <td class="text-right">{{ user.id }}</td>
           <td>{{ user.name }}</td>
           <td>
-            <v-btn color="primary" small :to="`user/${user.id}`">
+            <v-btn color="primary" small :to="`${user.id}`" append>
               <v-icon left>mdi-account-details</v-icon>
               詳細
             </v-btn>
