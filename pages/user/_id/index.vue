@@ -7,6 +7,9 @@
       <v-btn color="primary" to="friend" append>
         <v-icon left>mdi-account-group</v-icon>友達一覧
       </v-btn>
+      <v-btn to="/user">
+        戻る
+      </v-btn>
     </v-card-actions>
   </v-card>
 </template>
