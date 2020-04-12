@@ -3,7 +3,9 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   mode: 'spa',
   router: {
-    base: '/nuxt/routing/'
+    base: '/nuxt/routing/',
+    trailingSlash: true,
+    middleware: 'trailingSlashRedirect'
   },
 
   /*
